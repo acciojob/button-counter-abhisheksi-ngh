@@ -5,9 +5,9 @@ import ClickMe from "./ClickMe";
 
 const App = () => {
   return (
-    <>
+    <div>
       <ClickMe/>
-    </>
+    </div>
       
     
   )
