@@ -5,10 +5,10 @@ import ClickMe from "./ClickMe";
 
 const App = () => {
   return (
-    <div>
+    <p>
       <ClickMe/>
         {/* Do not remove the main div */}
-    </div>
+    </p>
   )
 }
 
