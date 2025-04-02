@@ -1,16 +1,14 @@
+import React, { useState } from "react";
 
-import React from "react";
-import './../styles/App.css';
-import ClickMe from "./ClickMe";
+function App() {
+    const [count, setCount] = useState(0);
 
-const App = () => {
-  return (
-    <div>
-      <ClickMe/>
-    </div>
-      
-    
-  )
+    return (
+        <div>
+            <p>Button clicked {count} times</p>
+            <button onClick={() => setCount(count + 1)}>Click Me</button>
+        </div>
+    );
 }
 
-export default App
+export default App;
